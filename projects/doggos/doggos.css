@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+@keyframes spin {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+/*body {
+    width: 80%;
+}*/
+header {
+    background-color: #ff6666;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header h1 {
+    font-family: 'Monoton', cursive;
+}
+header select {
+    font-size: 1rem;
+    padding: 0.5rem;
+    height: 50%;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+header select:focus {
+    outline: none;
+}
+.hidden {
+    display: none;
+}
+#loading-img {
+    animation: spin 3s ease-in-out infinite;
+    font-size: 3rem;
+    margin-top: 10rem;
+}
+.doggos {
+    text-align: center;  
+    margin-top: 1rem; 
+}
+#dog-img {
+    border-radius: 0.5rem;
+}

@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: cursive;
+}
+.wrapper {
+    width: 80vw;
+    margin: 0 auto;
+    background-color: #3C4059;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.viewport-height {
+    min-height: 100vh;
+}
+header {
+    background-color: #F2A71B;
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    color: #551A8B;
+}    
+h1{
+    font-family: 'Marck Script', cursive;    
+    font-size: 3rem;
+    margin:0;
+}
+nav li {
+    list-style-type: none;
+    font-size:1rem;
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    padding: 0 0.5rem;
+}
+nav a:hover{
+    background-color: #F2F2F2;
+    border-radius: 2rem;
+}
+section {
+    margin: 2rem 1rem;
+}
+section img {
+    float:left;
+    margin-right: 2rem;
+    border-radius: 2rem;
+}
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+section a {
+    text-decoration: none;
+    color:#F2A71B;
+}
+section a:hover{
+    color:#F2F2F2;
+}
+.welcome {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+blockquote {
+    font-size: 1.5rem;
+}
+.topic {
+    background-color: #f2a71b5d;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+}
+.topic h2 {
+    margin: 0;
+}
+.description {
+    background-color: #f2a71b5d;
+    margin:0;
+}
+.parallax {
+    min-height: 300px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.family {
+    background-image: url("../img/familypic.jpg");   
+}
+.education {
+    background-image: url("../img/vtu.jpg");
+}
+.career {
+    background-image: url("../img/nibtech.jpg");
+}
+details summary {
+    background-color: #F2A71B;
+    border:1px solid black;
+    border-radius: 2rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+details p {
+    margin-left: 3rem;
+    margin-top: -1.5rem;
+}
+details ul {
+    margin-left: 4rem;
+}
+h4 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+iframe {
+    margin-top: 1rem;
+}
+.project-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.project {
+    background-color: #f2a71b50;
+    border-radius: 2rem;
+    text-align: center;
+    margin: 0 1rem 1rem 0;
+    border: 1px solid transparent;
+}
+.project:hover {
+    border: 1px solid #F2A71B;
+}
+.project img {
+    height: 200px;
+    width:200px;
+    
+}
+
